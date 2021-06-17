@@ -293,8 +293,8 @@
 		array_push($invoerfouten,"Een email adres is verplicht");
 	}
 	if(!filter_var($email)) {
-		array_push($invoerfouten, "Ongeldig email adres";)
-	  }
+		array_push($invoerfouten, "Ongeldig email adres");
+	}
 	if (empty($telefoonnummer)){
 		array_push($invoerfouten,"Een telefoonnummer is verplicht");
 	}
